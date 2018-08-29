@@ -6,9 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Shadows+Into+Light|Uncial+Antiqua" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/style.css">
     <title>Patatukana</title>
 </head>
-<body ng-app="">
+<body ng-app="patatuna" ng-controller="ctrl-patatu">
     <div>Patatukana</div>
     <div class="in_text">
         <textarea name="trans" id="trans" cols="30" rows="10" ng-model="p_input"></textarea>
@@ -16,5 +19,13 @@
     <div class="out_text font1">{{ p_input }}</div>
     <div class="out_text font2">{{ p_input }}</div>
     <div class="out_text font3">{{ p_input }}</div>
+
+
+    <script>
+        var app = angular.module("patatuna", []);
+        app.controller('ctrl-patatu', function ($scope) {
+            $scope.p_input = '';
+        });
+</script>
 </body>
 </html>
