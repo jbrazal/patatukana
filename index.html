@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,21 +12,38 @@
     <link rel="stylesheet" href="./assets/style.css">
     <title>Patatukana</title>
 </head>
+
 <body ng-app="patatuna" ng-controller="ctrl-patatu">
-    <div>Patatukana</div>
+    <div>
+        <h1>PATATUKANA</h1>
+        <p><input type="color" name="background" id="p_bgColor" ng-model='m_bgColor'><label for="p_bgColor">Background Color</label>
+            </p>
+        <p><input type="color" name="fontcolor" id="p_fontColor" ng-model='m_ftColor'><label for="p_fontColor">Font</label>
+            </p>
+        <input type="button" value="Set Color" ng-click="changeColor()">
+
+    </div>
     <div class="in_text">
         <textarea name="trans" id="trans" cols="30" rows="10" ng-model="p_input"></textarea>
     </div>
-    <div class="out_text font1">{{ p_input }}</div>
-    <div class="out_text font2">{{ p_input }}</div>
-    <div class="out_text font3">{{ p_input }}</div>
+    <div class="out_text font1" ng-style="out_style">{{ p_input }}</div>
+    <div class="out_text font2" ng-style="out_style">{{ p_input }}</div>
+    <div class="out_text font3" ng-style="out_style">{{ p_input }}</div>
 
 
     <script>
         var app = angular.module("patatuna", []);
         app.controller('ctrl-patatu', function ($scope) {
-            $scope.p_input = '';
+            $scope.p_input = 'ffffff';
+
+            $scope.changeColor = function () {
+                $scope.out_style = {
+                    "color": $scope.m_ftColor,
+                    "background-color": $scope.m_bgColor
+                };
+            };
         });
-</script>
+    </script>
 </body>
+
 </html>
