@@ -14,22 +14,25 @@
 </head>
 
 <body ng-app="patatuna" ng-controller="ctrl-patatu">
-    <div id="header"><h1>PATATUKANA</h1></div>
-    <div id="options">
-        
+    <div id="header">
+        <h1>PATATUKANA</h1>
+        <h3>Baybayin Fonts Demo</h3>
+    </div>
+    <div class="in_text">
+        <textarea name="trans" id="trans" cols="110" rows="3" ng-model="p_input"></textarea>
+    </div>
+    <div class="out_text font1" ng-style="out_style">{{ p_input }}</div>
+    <div class="out_text font2" ng-style="out_style">{{ p_input }}</div>
+    <div class="out_text font3" ng-style="out_style">{{ p_input }}</div>
+
+    <div id="options">        
         <p><input type="color" name="background" id="p_bgColor" ng-model='m_bgColor'><label for="p_bgColor">Background Color</label>
             </p>
         <p><input type="color" name="fontcolor" id="p_fontColor" ng-model='m_ftColor'><label for="p_fontColor">Font</label>
             </p>
         <input type="button" value="Set Color" ng-click="changeColor()">
-
     </div>
-    <div class="in_text">
-        <textarea name="trans" id="trans" cols="30" rows="10" ng-model="p_input"></textarea>
-    </div>
-    <div class="out_text font1" ng-style="out_style">{{ p_input }}</div>
-    <div class="out_text font2" ng-style="out_style">{{ p_input }}</div>
-    <div class="out_text font3" ng-style="out_style">{{ p_input }}</div>
+    
 
 
     <script>
