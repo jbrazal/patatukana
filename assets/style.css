@@ -22,10 +22,22 @@ font-family: 'Uncial Antiqua', cursive;
 .font2{font-family: 'Indie Flower', cursive;}
 .font3{font-family: 'Uncial Antiqua', cursive; }
 
+#header{
+    width: 400px;
+    margin: 0% auto;
+    text-align: center;
+}
+
+.in_text{
+    
+    width: 800px;
+    margin: 0% auto;
+}
+
+
+
 .out_text{
-    float: left; 
-    height: 70%;
-    width: 100%;
+
     font-size: 30pt;
     word-wrap: break-word;
    
