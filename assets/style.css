@@ -14,13 +14,27 @@ font-family: 'Uncial Antiqua', cursive;
 
 
 #options{
-    visibility: hidden;
+    backface-visibility: visible;
 }
 
 
 .font1{font-family: 'Shadows Into Light', cursive;}
 .font2{font-family: 'Indie Flower', cursive;}
 .font3{font-family: 'Uncial Antiqua', cursive; }
+
+
+
+.menu-bar {
+  
+    list-style: none;
+}
+
+.menu-bar li{
+    display: inline-block;
+    margin-right: -4px;
+    border: 1px;
+    margin: 0 auto;
+}
 
 #header{
     width: 400px;
@@ -37,7 +51,7 @@ font-family: 'Uncial Antiqua', cursive;
 
 
 .out_text{
-
+    padding: 10px;
     font-size: 30pt;
     word-wrap: break-word;
    

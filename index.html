@@ -14,31 +14,48 @@
 </head>
 
 <body ng-app="patatuna" ng-controller="ctrl-patatu">
+    <ul class="menu-bar">
+    <li ng-click="sec_choice(1)" id="li_demo">Baybayin Font Demo</li>
+    <li ng-click="sec_choice(2)" id="li_history">Section 2</li>
+    <li ng-click="sec_choice(3)" id="li_about">Section 3</li>
+    </ul>
+<section id="sec_demo" ng-show="!sec_demo_vis">
     <div id="header">
         <h1>PATATUKANA</h1>
         <h3>Baybayin Fonts Demo</h3>
+        <div id="options">        
+                <p>
+                    <input type="color" name="background" id="p_bgColor" ng-model='m_bgColor' ng-change="changeColor()"><label for="p_bgColor">&nbsp;&nbsp;Background Color</label>
+                    <input type="color" name="fontcolor" id="p_fontColor" ng-model='m_ftColor' ng-change="changeColor()"><label for="p_fontColor">&nbsp;&nbsp;Font</label>
+                
+                <!-- <input type="button" value="Set Color" ng-click="changeColor()"> -->
+            </p>
+            </div>
     </div>
+
     <div class="in_text">
         <textarea name="trans" id="trans" cols="110" rows="3" ng-model="p_input"></textarea>
     </div>
     <div class="out_text font1" ng-style="out_style">{{ p_input }}</div>
     <div class="out_text font2" ng-style="out_style">{{ p_input }}</div>
     <div class="out_text font3" ng-style="out_style">{{ p_input }}</div>
+</section>
 
-    <div id="options">        
-        <p><input type="color" name="background" id="p_bgColor" ng-model='m_bgColor'><label for="p_bgColor">Background Color</label>
-            </p>
-        <p><input type="color" name="fontcolor" id="p_fontColor" ng-model='m_ftColor'><label for="p_fontColor">Font</label>
-            </p>
-        <input type="button" value="Set Color" ng-click="changeColor()">
-    </div>
-    
+<section id="sec_history" ng-show="sec_history_vis">
+<h1>This is section 2</h1>
+</section>
+
+<section id="sec_about" ng-show="sec_about_vis">
+        <h1>This is section 3</h1>
+</section>
 
 
-    <script>
+<script src="./scripts/script.js"></script>
+    <!-- <script>
         var app = angular.module("patatuna", []);
         app.controller('ctrl-patatu', function ($scope) {
             $scope.p_input = 'a e i ba ka da ga ha la ma na nga pa ra sa ta wa ya c f j v x z';
+            $scope.m_bgColor = "#ffffff";
 
             $scope.changeColor = function () {
                 $scope.out_style = {
@@ -47,7 +64,7 @@
                 };
             };
         });
-    </script>
+    </script> -->
 </body>
 
 </html>
