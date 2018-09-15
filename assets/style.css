@@ -14,7 +14,7 @@ font-family: 'Uncial Antiqua', cursive;
 
 
 #options{
-    backface-visibility: visible;
+   visibility: hidden;
 }
 
 
@@ -25,7 +25,7 @@ font-family: 'Uncial Antiqua', cursive;
 
 
 .menu-bar {
-  
+    visibility: hidden;
     list-style: none;
 }
 
