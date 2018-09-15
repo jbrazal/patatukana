@@ -4,23 +4,17 @@ font-family: 'Indie Flower', cursive;
 font-family: 'Uncial Antiqua', cursive; 
 */
 
-@font-face {
-    font-family: 'custom_font';
-    src: url('fonts/custom_font-webfont.woff2') format('woff2'),
-         url('fonts/custom_font-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
 
+@import 'fonts.css';
 
 #options{
    visibility: hidden;
 }
 
 
-.font1{font-family: 'Shadows Into Light', cursive;}
-.font2{font-family: 'Indie Flower', cursive;}
-.font3{font-family: 'Uncial Antiqua', cursive; }
+.font1{font-family: 'Nordenx Round', cursive;}
+.font2{font-family: 'Nordenx Modern', cursive;}
+.font3{font-family: 'Nordenx Brush1', cursive; }
 
 
 

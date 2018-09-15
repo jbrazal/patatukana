@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'Nordenx Brush1';
+    src: url('fonts/nordenx/baybayin_br1-webfont.woff2') format('woff2'),
+         url('fonts/nordenx/baybayin_br1-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nordenx Modern';
+    src: url('fonts/nordenx/baybayin_mod-webfont.woff2') format('woff2'),
+         url('fonts/nordenx/baybayin_mod-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nordenx Round';
+    src: url('fonts/nordenx/baybayin_rnd-webfont.woff2') format('woff2'),
+         url('fonts/nordenx/baybayin_rnd-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
