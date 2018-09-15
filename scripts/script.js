@@ -1,6 +1,14 @@
 var app = angular.module("patatuna", []);
 app.controller('ctrl-patatu', function ($scope) {
-    $scope.p_input = 'a e i ba ka da ga ha la ma na nga pa ra sa ta wa ya c f j v x z';
+
+
+var initText = " A b k d E g h I l n \n";
+initText = initText + " N O p r s t U w y \n";
+initText = initText + " k ke ki ko ku \n";
+initText = initText + " b+ b= b \n";
+initText = initText + " . , ? ! ' \" ";
+
+    $scope.p_input = initText;
     $scope.m_bgColor = "#ffffff";
 
     $scope.changeColor = function () {

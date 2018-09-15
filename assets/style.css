@@ -48,6 +48,7 @@ font-family: 'Uncial Antiqua', cursive;
     padding: 10px;
     font-size: 30pt;
     word-wrap: break-word;
+    white-space: pre;
    
 }
 
