@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Baybayin Names</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.js"></script>
+    
+</head>
+<body ng-app="baybayin">
+
+
+    <div ng-controller="ctrl">
+            <script src="data.js"></script>
+
+<table class="">
+    <thead>
+        <tr>
+            <th>Names</th>
+            <th>Read</th>
+            <th>Write</th>
+        </tr>
+    </thead>
+    <tr ng-repeat="n in Names">
+        <td>{{ n.name}} </td>
+        <td>{{ n.read}} </td>
+        <td class="glyph bby-script" >{{ n.write}} </td>
+    </tr>
+</table>
+    </div>
+
+    <script>
+        var app = angular.module('baybayin', [])
+        .controller('ctrl', function($scope){
+            $scope.Names = allNames;
+            console.log(  $scope.Names);
+            // $scope.displayNames = function(){
+            //     var temp = [];
+                
+            //     switch  ($scope.name_sel){
+            //     case "J":
+            //         $scope.Names = temp.concat(j_names);
+            //         break;
+            //     case "K":
+            //         $scope.Names = temp.concat(k_names);
+            //         break;
+            //     default:
+            //         $scope.Names = temp.concat(a_names);
+            // }
+            //     console.log($scope.Names);
+            //     $scope.Names.sort();
+            // }
+
+        });
+    </script>
+</body>
+</html>
