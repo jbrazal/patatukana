@@ -1,21 +1,11 @@
-/* 
-font-family: 'Shadows Into Light', cursive;
-font-family: 'Indie Flower', cursive;
-font-family: 'Uncial Antiqua', cursive; 
-*/
-
-
 @import 'fonts.css';
-
-#options{
-   visibility: hidden;
-}
 
 
 .font1{font-family: 'Nordenx Round', cursive;}
 .font2{font-family: 'Nordenx Modern', cursive;}
 .font3{font-family: 'Nordenx Brush1', cursive; }
 
+*{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif}
 
 
 .menu-bar {
@@ -35,6 +25,10 @@ font-family: 'Uncial Antiqua', cursive;
     margin: 0% auto;
     text-align: center;
 }
+
+#options{
+    visibility: hidden;
+ }
 
 .in_text{
     

@@ -21,8 +21,8 @@
     </ul>
 <section id="sec_demo" ng-show="!sec_demo_vis">
     <div id="header">
-        <h1>PATATUKANA</h1>
-        <h3>Baybayin Fonts Demo</h3>
+        <h1 id='top'>PATATUKANA</h1>
+        <h3>Baybayin Fonts Demo ver 0.0.1</h3>
         <div id="options">        
                 <p>
                     <input type="color" name="background" id="p_bgColor" ng-model='m_bgColor' ng-change="changeColor()"><label for="p_bgColor">&nbsp;&nbsp;Background Color</label>
@@ -49,22 +49,14 @@
         <h1>This is section 3</h1>
 </section>
 
+<div class="guide">
+    <p>
+        This is a tool to demonstrate some of Baybayin Fonts created by Nordenx.
+    </p>
+</div>
 
 <script src="./scripts/script.js"></script>
-    <!-- <script>
-        var app = angular.module("patatuna", []);
-        app.controller('ctrl-patatu', function ($scope) {
-            $scope.p_input = 'a e i ba ka da ga ha la ma na nga pa ra sa ta wa ya c f j v x z';
-            $scope.m_bgColor = "#ffffff";
 
-            $scope.changeColor = function () {
-                $scope.out_style = {
-                    "color": $scope.m_ftColor,
-                    "background-color": $scope.m_bgColor
-                };
-            };
-        });
-    </script> -->
 </body>
 
 </html>
