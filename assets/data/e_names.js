@@ -2,17 +2,17 @@ var e_names = [
     {
         name: "Ernie",
         read: "ERNi",
-        write: "e=r=ni"
+        write: "E=r=ni"
     },
     {
         name: "Edward",
         read: "EDuWaRD",
-        write: "eduwar=d="
+        write: "Eduwar=d="
     }
     ,
     {
         name: "Elmer",
         read: "ELMeR",
-        write: "elmer="
+        write: "El=mer="
     }
     ];
