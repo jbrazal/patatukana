@@ -2,16 +2,16 @@ var a_names = [
     {
         name: "Arthur",
         read: "A R Tu R",
-        write: "ar=tur="
+        write: "Ar=tur="
     },
     {
         name: "Abby",
         read: "A Bi",
-        write: "abi"
+        write: "Abi"
     },
     {
         name: "Alan",
         read: "A La N",
-        write: "ala+n+"
+        write: "Ala+n+"
     }
     ];
