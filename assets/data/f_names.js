@@ -1,4 +1,4 @@
-var e_names = [
+var f_names = [
     {
         name: "Frank",
         read: "PRaNK",
