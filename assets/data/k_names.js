@@ -13,6 +13,6 @@ var k_names = [
     {
         name: "KeN",
         read: "KeN",
-        write: "KeN="
+        write: "ken="
     }
     ];

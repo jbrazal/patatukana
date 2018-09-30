@@ -2,17 +2,17 @@ var g_names = [
     {
         name: "Gina",
         read: "DYiNa",
-        write: "D=YiNa"
+        write: "d=yina"
     },
     {
         name: "Gregory",
         read: "GReGoRi",
-        write: "G=ReGoRi"
+        write: "g=regori"
     }
     ,
     {
         name: "Giselle",
         read: "DYiSeL",
-        write: "D=YiSeL="
+        write: "d=yisel="
     }
     ];

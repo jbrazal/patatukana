@@ -2,16 +2,16 @@ var c_names = [
     {
         name: "Carlo",
         read: "KaRLo",
-        write: "KaR=Lo"
+        write: "kar=lo"
     },
     {
         name: "Catherine",
         read: "Ka Te Ri N",
-        write: "KaTeRiN="
+        write: "katerin="
     },
     {
         name: "Christine",
         read: "KRiSTiN",
-        write: "K=RiS=TiN="
+        write: "k=ris=tin="
     }
     ];

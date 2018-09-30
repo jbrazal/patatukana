@@ -2,17 +2,17 @@ var f_names = [
     {
         name: "Frank",
         read: "PRaNK",
-        write: "P=RaN=K="
+        write: "p=ran=k="
     },
     {
         name: "Fred",
         read: "PReD",
-        write: "P=ReD="
+        write: "p=red="
     }
     ,
     {
         name: "Flora",
         read: "PLoRa",
-        write: "P=LoRa"
+        write: "p=lora"
     }
     ];

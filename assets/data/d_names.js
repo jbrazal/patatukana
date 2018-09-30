@@ -2,16 +2,16 @@ var d_names = [
     {
         name: "Drake",
         read: "DReYK",
-        write: "D=ReY=K="
+        write: "d=rey=k="
     },
     {
         name: "Donald",
         read: "DoNaLD",
-        write: "DoNaL=D="
+        write: "donal=d="
     },
     {
         name: "Daniel",
         read: "DaNiYeL",
-        write: "DaNiYeL="
+        write: "daniyel="
     }
     ];

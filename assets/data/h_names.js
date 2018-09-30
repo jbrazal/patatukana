@@ -2,17 +2,17 @@ var h_names = [
     {
         name: "Harrold",
         read: "HaRoLD",
-        write: "HaRoL=D="
+        write: "harol=d="
     },
     {
         name: "Henry",
         read: "HeNRi",
-        write: "HeN=Ri"
+        write: "hen=ri"
     }
     ,
     {
         name: "Hailey",
         read: "HeYLi",
-        write: "HeY=Li"
+        write: "hey=li"
     }
     ];

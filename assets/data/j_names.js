@@ -7,12 +7,12 @@ var j_names = [
     {
         name: "John",
         read: "D Yan",
-        write: "D=YaN="
+        write: "d=yan="
     }
     ,
     {
         name: "Jack",
         read: "DYaK",
-        write: "D=YaK="
+        write: "d=yak="
     }
     ];
