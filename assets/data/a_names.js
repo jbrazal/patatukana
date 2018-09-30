@@ -12,6 +12,6 @@ var a_names = [
     {
         name: "Alan",
         read: "A La N",
-        write: "Ala+n+"
+        write: "Alan+"
     }
     ];
