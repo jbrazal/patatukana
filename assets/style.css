@@ -56,3 +56,7 @@
 .centered{
     margin: 0 auto;
 }
+
+.case-lowered{
+    text-transform: lowercase;
+    }
