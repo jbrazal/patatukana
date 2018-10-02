@@ -15,4 +15,13 @@ var j_names = [
         read: "DYaK",
         write: "d=yak="
     }
+    ,{
+        name: "Julia",
+        read: "dyuliya",
+        write: "diyuliya"
+    }    ,{
+        name: "Joy",
+        read: "dyoy",
+        write: "d=yoy="
+    }
     ];
