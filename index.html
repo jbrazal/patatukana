@@ -14,23 +14,30 @@
 </head>
 
 <body ng-app="patatuna" ng-controller="ctrl-patatu">
+
+    <!-- Menu BEGIN -->
     <ul class="menu-bar">
     <li ng-click="sec_choice(1)" id="li_demo">Baybayin Font Demo</li>
-    <li ng-click="sec_choice(2)" id="li_history">Section 2</li>
-    <li ng-click="sec_choice(3)" id="li_about">Section 3</li>
+    <li ng-click="sec_choice(2)" id="li_history">History</li>
+    <li ng-click="sec_choice(3)" id="li_about">About</li>
     </ul>
+    <!-- Menu END -->
+
 <section id="sec_demo" ng-show="!sec_demo_vis">
     <div id="header">
         <h1 id='top'>PATATUKANA</h1>
         <h3>Baybayin Fonts Demo ver 0.0.1</h3>
         <div id="options">        
-                <p>
-                    <input type="color" name="background" id="p_bgColor" ng-model='m_bgColor' ng-change="changeColor()"><label for="p_bgColor">&nbsp;&nbsp;Background Color</label>
-                    <input type="color" name="fontcolor" id="p_fontColor" ng-model='m_ftColor' ng-change="changeColor()"><label for="p_fontColor">&nbsp;&nbsp;Font</label>
-                
+            <p>
+                <!-- <input type="color" name="background" id="p_bgColor" ng-model='m_bgColor' ng-change="changeColor()"><label for="p_bgColor">&nbsp;&nbsp;Background Color</label> -->
+                <!-- <input type="color" name="fontcolor" id="p_fontColor" ng-model='m_ftColor' ng-change="changeColor()"><label for="p_fontColor">&nbsp;&nbsp;Font</label> -->
                 <!-- <input type="button" value="Set Color" ng-click="changeColor()"> -->
+                <input type="checkbox" name="Round" id="chk_font1" ng-model="chk_font1"><label for="chk_font1">Round</label>
+                <input type="checkbox" name="Modern" id="chk_font2" ng-model="chk_font2"><label for="chk_font2">Modern</label>
+                <input type="checkbox" name="Brush" id="chk_font3" ng-model="chk_font3"><label for="chk_font3">Brush</label>
+                <input type="checkbox" name="Kana" id="chk_font4" ng-model="chk_font4"><label for="chk_font4">Kana</label>
             </p>
-            </div>
+        </div>
     </div>
 
     <div class="in_text">
