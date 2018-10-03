@@ -41,6 +41,10 @@
         <div class="centered">
             <input type="text" size="30" maxlength="1000" value="" id="search" onkeyup="lsearch();" />
             <input type="button" value="Go" onclick="lsearch();" />
+            <input type="checkbox" name="Round" id="chk_font1" ng-model="chk_font1">Round
+            <input type="checkbox" name="Modern" id="chk_font2" ng-model="chk_font2">Modern
+            <input type="checkbox" name="Brush" id="chk_font3" ng-model="chk_font3">Brush
+            <input type="checkbox" name="Kana" id="chk_font4" ng-model="chk_font4">Brush
 
         </div>
         <table id="names_chart">
@@ -48,10 +52,10 @@
                 <tr>
                     <th>Names</th>
                     <th>Read</th>
-                    <th>Nordenx Round</th>
-                    <th>Nordenx Modern</th>
-                    <th>Nordenx Brush1</th>
-                    <th>Nordenx Kana</th>
+                    <th ng-show="chk_font1">Nordenx Round</th>
+                    <th ng-show="chk_font2">Nordenx Modern</th>
+                    <th ng-show="chk_font3">Nordenx Brush1</th>
+                    <th ng-show="chk_font4">Nordenx Kana</th>
                     
                 </tr>
             </thead>
@@ -59,10 +63,10 @@
                 <tr ng-repeat="n in Names">
                     <td>{{ n.name}} </td>
                     <td class="case-lowered">{{ n.read}} </td>
-                    <td class="font1">{{ n.write}} </td>
-                    <td class="font2">{{ n.write}} </td>
-                    <td class="font3">{{ n.write}} </td>
-                    <td class="font4">{{ n.write}} </td>
+                    <td class="font1"  ng-show="chk_font1">{{ n.write}} </td>
+                    <td class="font2"  ng-show="chk_font2">{{ n.write}} </td>
+                    <td class="font3"  ng-show="chk_font3">{{ n.write}} </td>
+                    <td class="font4"  ng-show="chk_font4">{{ n.write}} </td>
                 </tr>
             </tbody>
         </table>
