@@ -1,6 +1,7 @@
 var app = angular.module("patatuna", []);
 app.controller('ctrl-patatu', function ($scope) {
 
+$scope.chk_font4 = true;  //select default font
 
 var initText = " A b k d E g h I l n \n";
 initText = initText + " N O p r s t U w y \n";
@@ -23,10 +24,10 @@ initText = initText + " . , ? ! ' \" ";
         // $scope.sec_history_vis = !$scope.sec_history_vis;
 
         $scope.sec_demo_vis = false;
-$scope.sec_history_vis = false;
-$scope.sec_about_vis = false;
+        $scope.sec_history_vis = false;
+        $scope.sec_about_vis = false;
 
-console.log(m);
+        console.log(m);
         switch(m){
             case 1:
                 $scope.sec_demo_vis = true;

@@ -10,7 +10,7 @@
 
 
 .menu-bar {
-    visibility: hidden;
+    visibility: hidden;  
     list-style: none;
 }
 
@@ -28,7 +28,7 @@
 }
 
 #options{
-    visibility: hidden;
+    visibility: visible;
  }
 
 .in_text{
