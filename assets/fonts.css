@@ -22,3 +22,11 @@
     font-weight: normal;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'Nordenx Kana';
+    src: url('fonts/nordenx/baybayin_kan-webfont.woff2') format('woff2'),
+         url('fonts/nordenx/baybayin_kan-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
