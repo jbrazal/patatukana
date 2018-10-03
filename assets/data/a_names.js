@@ -8,10 +8,17 @@ var a_names = [
         name: "Abby",
         read: "A Bi",
         write: "Abi"
-    },
+    }
+    ,
     {
         name: "Alan",
         read: "A La N",
         write: "Alan+"
     }
-    ];
+    ,
+    {
+        name: "Alvin",
+        read: "albin",
+        write: "Al=bin="
+    }
+];
