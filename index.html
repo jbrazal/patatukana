@@ -42,6 +42,7 @@
 
     <div class="in_text">
         <textarea name="trans" id="trans" cols="110" rows="3" ng-model="p_input"></textarea>
+        <input type="button" value="clear" ng-click="clear_input()">
     </div>
 
     <section class="out_text font1" ng-style="out_style" ng-show="chk_font1">{{ p_input }}</section>

@@ -45,4 +45,9 @@ initText = initText + " . , ? ! ' \" ";
 
         }
     };
+
+    // Clear Text Input
+    $scope.clear_input = function(){
+        $scope.p_input = "";
+    };
 });
