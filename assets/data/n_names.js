@@ -24,4 +24,16 @@ var n_names = [
         read: "nansi",
         write: "nan=si"
     }
+    ,{
+        name: "Nathan",
+        read: "netan",
+        write: "natan="
+    }
+    ,{
+        name: "Nathaniel",
+        read: "natanyel",
+        write: "natan=yel="
+    }
+    
+
 ];
