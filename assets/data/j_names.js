@@ -19,9 +19,35 @@ var j_names = [
         name: "Julia",
         read: "dyuliya",
         write: "diyuliya"
-    }    ,{
+    }    
+    ,{
         name: "Joy",
         read: "dyoy",
         write: "d=yoy="
+    }
+    ,{
+        name: "Jacob",
+        read: "dyekob",
+        write: "d=yekob="
+    }
+    ,{
+        name: "Joseph",
+        read: "dyosep",
+        write: "d=yosep="
+    }
+    ,{
+        name: "Jose",
+        read: "hose",
+        write: "hose"
+    }
+    ,{
+        name: "Jane",
+        read: "dyeyn",
+        write: "d=yey=n="
+    }
+    ,{
+        name: "Janet",
+        read: "dyanet",
+        write: "d=yanet="
     }
     ];
